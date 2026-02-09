@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.38.3
+  version: "0.38.4"
 
 package:
   name: terraform-ls
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/hashicorp/terraform-ls/archive/v${{ version }}.tar.gz
-  sha256: 97f5992c57d6cabba72b3ffb69f18c953001f273ee7f24d56603b601fd3f7a40
+  sha256: 698968b3606c422750fedd9d8a038ca3d0b7f57d7503d7ee60eade56dfb3d31a
 
 build:
   number: 0
